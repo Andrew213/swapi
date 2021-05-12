@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SWAPI JS M11</title>
+  <link rel="stylesheet" href="./style.css">
+  <script  src="./script.js" type="module"></script>
+</head>
+<body>
+
+<div class="content">
+
+  <div class="search">
+    <div class="search_form"><label>Поиск персонажа: <input type="text" class="input-search-js" id="person_search_input"> </label>
+      <select  class="select-category">
+         <option value='planets'>Планеты</option>
+         <option value='ships'>Корабли</option>
+         <option selected value='character'>Персонажи</option>
+        </select>
+      <button id="search_request_btn" class="button">Найти</button></div>
+   
+    <ul class="search_result">
+       
+    </ul>
+  </div>
+
+
+<div class="data-block-js">
+   <div class="person_data">
+      <div>Имя: <span id="name" class="name-js"></div>
+      <div>Рост: <span id="height" class="height-js"></div>
+      <div>Вес: <span id="mass" class="mass-js"></div>
+      <div>Год рождения: <span id="birth_year" class="birth-js"></div>
+      <div>В скольки фильмах появлялся: <span id="films_count" class="filmsCount-js"></div>
+    </div>
+</div>
+
+
+  <!-- <div class="planet_data">
+   <div>Имя: <span id="name" class="planetName-js"></div>
+   <div>Климат: <span id="height" class="climate-js"></div>
+   <div>Местность: <span id="mass" class="terrain-js"></div>
+   <div>Гравитация: <span id="birth_year" class="gravity-js"></div>
+ </div>
+ <div class="ship_data">
+   <div>Имя: <span id="name" class="shipName-js"></div>
+   <div>Модель: <span id="height" class="model-js"></div>
+   <div>Класс звездолета: <span id="mass" class="classShip-js"></div>
+   <div>Пилотов: <span class="pilots-js"></div>
+   <div>В скольки фильмах появлялся: <span id="films_count" class="shipFilmsCount-js"></div>
+ </div> -->
+</div>
+<!-- partial -->
+
+
+</body>
+</html>
